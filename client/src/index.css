@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-white
+}
+
+@theme {
+  --color-primary: #1e2124;
+  --color-secondary: #282b30;
+  --color-tertiary: #36393e;
+  --color-extra: #424549;
+  --color-main: #7289da;
+}
